@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "networksim"
+version = "1.0.0"
+description = ""
+authors = ["Roman Glushko <roman.glushko.m@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">3.9,<4.0"
+simpy = "^4.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
